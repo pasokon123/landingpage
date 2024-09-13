@@ -1,0 +1,53 @@
+header {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 16px;
+    
+}
+
+.header_logo {
+    margin: 16px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title_container_outside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    gap: 48px;
+    height: 400px;
+}
+
+.title_container {
+    display: flex;
+    width: 500px;
+    
+}
+    
+
+.title_text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    
+    
+}
+
+.title_subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
