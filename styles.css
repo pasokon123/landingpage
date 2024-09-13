@@ -39,7 +39,8 @@ ul {
 
 .title_container {
     display: flex;
-    gap: 40px;
+    gap: 80px;
+    margin-top: 30px;
 }
     
 .title_box_container {
@@ -86,6 +87,7 @@ button {
     font-size: 40px;
     font-weight: bold;
     margin: 40px;
+    margin-top: 80px;
 
 }
 
@@ -117,5 +119,24 @@ button {
 }
 
 footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height:250px;
+}
+
+.signup_container {
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_text {
+    font-weight: bold;
+    font-size: 20px;
 }
