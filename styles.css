@@ -1,3 +1,8 @@
+body {
+    font-family: serif;
+}
+
+
 header {
     display:flex;
     justify-content: space-around;
@@ -86,12 +91,23 @@ button {
 .images_container {
     display:flex;
     justify-content: center;
-    align-items: center;
-    line-break: loose;
+    align-items:center
+    
 }
 
 
+
 .section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     background-color: #E5E7EB;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
 }
