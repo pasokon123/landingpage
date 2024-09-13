@@ -74,6 +74,8 @@ button {
 
 
 .section2 {
+    display: flex;
+    flex-direction: column;
     height: 500px;
     background-color: white;
 }
@@ -81,8 +83,7 @@ button {
 .images_title {
     display: flex;
     justify-content: center;
-
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     margin: 40px;
 
@@ -91,11 +92,14 @@ button {
 .images_container {
     display:flex;
     justify-content: center;
-    align-items:center
-    
+    align-items:center;
+    gap: 30px;
 }
 
-
+.subtext {
+    width: 180px;
+    text-align: center;
+}
 
 .section3 {
     display: flex;
@@ -110,4 +114,8 @@ button {
     font-size: 36px;
     color: #1F2937;
     display: flex;
+}
+
+footer {
+    height:250px;
 }
