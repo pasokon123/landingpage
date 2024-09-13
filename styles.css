@@ -132,11 +132,20 @@ footer {
     height: 150px;
     background-color: #3882F6;
     border-radius: 8px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: center
 }
 
 .signup_text {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.signup_subtext {
+    font-size: 18px;
+}
+
+.signup_button {
+    border: solid;
+    border-radius: 8px;
 }
